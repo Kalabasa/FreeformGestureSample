@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.github.kalabasa.freeformgesturesample"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+	implementation project(':freeformgesturedetector')
+	implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+}
