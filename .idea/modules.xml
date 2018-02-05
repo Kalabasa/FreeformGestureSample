@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FreeformGestureSample.iml" filepath="$PROJECT_DIR$/FreeformGestureSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/freeformgesturedetector/freeformgesturedetector.iml" filepath="$PROJECT_DIR$/freeformgesturedetector/freeformgesturedetector.iml" />
     </modules>
   </component>
 </project>

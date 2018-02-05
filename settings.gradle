@@ -1,1 +1,1 @@
-include ':app', ':freeformgesturedetector'
+include ':app'
